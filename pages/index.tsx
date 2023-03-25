@@ -92,7 +92,7 @@ export default function Home({ cookies }: PageProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="w-3/6 mx-auto mt-8 ">
+      <main className="box-border w-full px-4 mt-8 md:mx-auto md:w-3/6">
         <section className="border p-4 mb-4">
           <div className="flex items-center">
             <label className="w-44">Open AI Secret Key</label>
