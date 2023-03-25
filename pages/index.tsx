@@ -95,7 +95,7 @@ export default function Home({ cookies }: PageProps) {
       <main className="box-border w-full px-4 mt-8 md:mx-auto md:w-3/6">
         <section className="border p-4 mb-4">
           <div className="flex items-center">
-            <label className="w-44">Open AI Secret Key</label>
+            <label className="w-44">OpenAI Secret Key</label>
             <input
               ref={keyInputRef}
               type="text"
